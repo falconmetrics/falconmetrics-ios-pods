@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'FalconMetrics'
-    s.version          = '0.3.0'
+    s.version          = '0.4.0'
     s.summary          = 'FalconMetrics iOS SDK'
     s.description      = <<-DESC
   FalconMetrics SDK for iOS applications. Provides precise mobile ad attribution for iOS apps.
@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.falconmetrics.io'
     s.license          = { :type => 'Proprietary', :text => 'Copyright 2025 FalconMetrics LLC. All rights reserved.' }
     s.author           = { 'FalconMetrics' => 'support@falconmetrics.io' }
-    s.source           = { :http => 'https://falconmetrics-sdk.s3.eu-west-1.amazonaws.com/ios/0.3.0/FalconMetricsSDK.xcframework.zip', 
-                           :sha256 => '0e264b04994dfc294fcfe1aeadf9e0a000548da810db089fdd24ae8f301b3024' }
+    s.source           = { :http => 'https://falconmetrics-sdk.s3.eu-west-1.amazonaws.com/ios/0.4.0/FalconMetricsSDK.xcframework.zip', 
+                           :sha256 => '6c6ae6e76a129b23d78699833948f9ccc0a77168631f9c62df0290bb5b85a559' }
     
     s.ios.deployment_target = '13.0'
     s.swift_version = '5.7'
